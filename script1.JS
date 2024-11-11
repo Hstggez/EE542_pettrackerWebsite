@@ -38,7 +38,7 @@ function hideConnectingMessage() {
 // Simulate listening for updates from AWS (replace this with actual AWS logic)
 function listenForUpdates() {
     showConnectingMessage();
-
+    //add event listenner
     // Simulate receiving data from AWS after 3 seconds
     setTimeout(() => {
         hideConnectingMessage();
